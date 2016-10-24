@@ -1,85 +1,191 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<meta charset="utf-8">
+    <head>
+        <meta charset="utf-8">
 
-		<title>Using Workspaces</title>
-		
-		<meta name="description" content="HUBzero Tools Workshop - Using Workspaces">
-		<meta name="author" content="Alissa Nedossekina">
-		
-		<meta name="apple-mobile-web-app-capable" content="yes" />
-		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <title>Using Workspaces</title>
 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-		
-		<link rel="stylesheet" href="../../revealjs/css/reveal.css">
-		<link rel="stylesheet" href="../../assets/css/hubzero.css" id="theme">
+        <meta name="description" content="HUBzero Tools Workshop - Using Workspaces">
+        <meta name="author" content="Alissa Nedossekina">
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="../../revealjs/lib/css/zenburn.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section data-background="../../assets/images/hubzero_cropped_blue.png" data-background-repeat="no-repeat"  data-background-size="30%" data-background-position="-10% 30%" class="title-slide">
-					<h2>Using Simulation Workspaces</h2>
-					<h5>Build and Share a Scientific Simulation Tool</h5>
-					<p>
-						<small>Facilitated by <a href="https://github.com/codedsk">Derrick Kearney</a> <br /> <a href="https://hubzero.org">HUBzero®</a>, Purdue University</small>
-					</p>
-				</section>
-				
-				<section>
-					<h3>Launching workspaces</h3>
-					<p><img src="../../assets/images/workshop-1/launchtool-one.jpg" alt="" /></p>
-				</section>
-				
-				<section>
-					<h3>What is a Workspace?</h3>
-					<div class="grid">
-						<div class="col span6">
-						<p class="topalign">
-							<img src="../../assets/images/workshop-1/clusters.jpg" alt="" />
-						</p>
-						</div>
-						<div class="col span6 omega">
-							<ul class="list">
-								<li>Full-featured Linux desktop</li>
-								<li>For tool developers</li>
-								<li>For researchers</li>
-								<li>Accessible from any web browser</li>
-								<li>Still running after you close your browser</li>
-								<li>Access to computational clusters</li>
-								<li>File storage provided by the hub</li>	
-							</ul>
-						</div>				
-					</div>
-				</section>
-				
-				<section>
-					<h3>Accessing running workspaces</h3>
-					<p class="instruct">If you close the browser, your session is still running. Access it from "My Sessions" module on the My Hub page.</p>
-					<p><img src="../../assets/images/workshop-1/access-session.jpg" alt="" /></p>
-				</section>
-			</div>
-		</div>
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-		<script src="../../revealjs/lib/js/head.min.js"></script>
-		<script src="../../revealjs/js/reveal.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
-		<script>
-			// More info https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				controls: true,
-				progress: true,
-				history: true,
-				center: true,
+        <link rel="stylesheet" href="../../revealjs/css/reveal.css">
+        <link rel="stylesheet" href="../../assets/css/hubzero.css" id="theme">
 
-				// More info https://github.com/hakimel/reveal.js#dependencies
-				dependencies: [
-				]
-			});
-		</script>
-	</body>
+        <!-- Theme used for syntax highlighting of code -->
+        <link rel="stylesheet" href="../../revealjs/lib/css/zenburn.css">
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section data-background="../../assets/images/hubzero_cropped_blue.png" data-background-repeat="no-repeat"  data-background-size="30%" data-background-position="-10% 30%" class="title-slide">
+                    <h2>Using Simulation Workspaces</h2>
+                    <h5>Build and Share a Scientific Simulation Tool</h5>
+                    <p>
+                        <small>Facilitated by <a href="https://github.com/codedsk">Derrick Kearney</a> <br /> <a href="https://hubzero.org">HUBzero®</a>, Purdue University</small>
+                    </p>
+                </section>
+
+                <!--
+                <section>
+                    <h3>Launching workspaces</h3>
+                    <p><img src="../../assets/images/workshop-1/launchtool-one.jpg" alt="" /></p>
+                </section>
+                -->
+
+                <section>
+                    <h3>Launching workspaces</h3>
+                    <img class="stretch" src="../../assets/images/workshop-1/launching_workspaces.png" alt="" />
+                </section>
+
+                <section>
+                    <h3>What is a Workspace?</h3>
+                    <div class="grid">
+                        <div class="col span6">
+                        <p class="topalign">
+                            <img src="../../assets/images/workshop-1/clusters.jpg" alt="" />
+                        </p>
+                        </div>
+                        <div class="col span6 omega">
+                            <ul class="list">
+                                <li>Full-featured Linux desktop</li>
+                                <li>For tool developers</li>
+                                <li>For researchers</li>
+                                <li>Accessible from any web browser</li>
+                                <li>Still running after you close your browser</li>
+                                <li>Access to computational clusters</li>
+                                <li>File storage provided by the hub</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!--
+                <section>
+                    <h3>Accessing running workspaces</h3>
+                    <p class="instruct">If you close the browser, your session is still running. Access it from "My Sessions" module on the My Hub page.</p>
+                    <p><img src="../../assets/images/workshop-1/access-session.jpg" alt="" /></p>
+                </section>
+                -->
+
+                <section>
+                    <h3>Accessing running workspaces</h3>
+                    <img class="stretch" src="../../assets/images/workshop-1/access_workspace_1.png" alt="" />
+                </section>
+
+                <section>
+                    <h3>Accessing running workspaces</h3>
+                    <img class="stretch" src="../../assets/images/workshop-1/access_workspace_2.png" alt="" />
+                </section>
+
+                <section>
+                    <h3>Accessing running workspaces</h3>
+                    <img class="stretch" src="../../assets/images/workshop-1/access_workspace_3.png" alt="" />
+                </section>
+
+                <section>
+                    <h3>Accessing running workspaces</h3>
+                    <img class="stretch" src="../../assets/images/workshop-1/access_workspace_4.png" alt="" />
+                </section>
+
+                <section>
+                    <h3>Closing workspaces</h3>
+                    <img class="stretch" src="../../assets/images/workshop-1/close_workspace_1.png" alt="" />
+                </section>
+
+                <section>
+                    <h3>Closing workspaces</h3>
+                    <img class="stretch" src="../../assets/images/workshop-1/close_workspace_2.png" alt="" />
+                </section>
+
+                <section>
+                    <h3>Closing workspaces</h3>
+                    <img class="stretch" src="../../assets/images/workshop-1/close_workspace_3.png" alt="" />
+                </section>
+
+                <section>
+                    <h3>Resize the screen</h3>
+                    <img class="stretch" src="../../assets/images/workshop-1/resize_screen.png" alt="" />
+                </section>
+
+                <section>
+                    <h3>Refresh the screen</h3>
+                    <img class="stretch" src="../../assets/images/workshop-1/refresh_screen.png" alt="" />
+                </section>
+
+                <section>
+                    <h3>Pop out as a separate window</h3>
+                    <img class="stretch" src="../../assets/images/workshop-1/popout_screen_1.png" alt="" />
+                </section>
+
+                <section>
+                    <h3>Pop out as a separate window</h3>
+                    <img class="stretch" src="../../assets/images/workshop-1/popout_screen_2.png" alt="" />
+                </section>
+
+                <section>
+                    <h3>Share your screen</h3>
+                    <img class="stretch" src="../../assets/images/workshop-1/share_screen_1.png" alt="" />
+                </section>
+
+                <section>
+                    <h3>Share your screen</h3>
+                    <img class="stretch" src="../../assets/images/workshop-1/share_screen_2.png" alt="" />
+                </section>
+
+                <section>
+                    <h3>Share your screen</h3>
+                    <img class="stretch" src="../../assets/images/workshop-1/share_screen_3.png" alt="" />
+                </section>
+
+                <section>
+                    <h3>Explore Desktop</h3>
+                    <img class="stretch" src="../../assets/images/workshop-1/explore_desktop.png" alt="" />
+                </section>
+
+                <section>
+                    <h3>Choosing common utilities</h3>
+                    <img class="stretch" src="../../assets/images/workshop-1/chuse_environments.png" alt="" />
+                </section>
+
+                <section>
+                    <h3>Downloading files</h3>
+                    <img class="stretch" src="../../assets/images/workshop-1/exportfile.png" alt="" />
+                </section>
+
+                <section>
+                    <h3>Uploading files</h3>
+                    <img class="stretch" src="../../assets/images/workshop-1/importfile.png" alt="" />
+                </section>
+
+                <section>
+                    <h3>Direct access to your files</h3>
+                    <img class="stretch" src="../../assets/images/workshop-1/sftp_access.png" alt="" />
+                </section>
+
+            </div>
+        </div>
+
+        <script src="../../revealjs/lib/js/head.min.js"></script>
+        <script src="../../revealjs/js/reveal.js"></script>
+
+        <script>
+            // More info https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: true,
+                progress: true,
+                history: true,
+                center: true,
+                transition: 'none',
+
+                // More info https://github.com/hakimel/reveal.js#dependencies
+                dependencies: [
+                ]
+            });
+        </script>
+    </body>
 </html>
